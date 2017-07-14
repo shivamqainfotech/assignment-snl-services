@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.qait.svm</groupId>
-  <artifactId>RestWs</artifactId>
+  <artifactId>RestAssuredWS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>RestWs</name>
+  <name>RestAssuredWS</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -23,21 +23,23 @@
     </dependency>
     
     <dependency>
-    <groupId>com.sun.jersey</groupId>
-    <artifactId>jersey-client</artifactId>
-    <version>1.19</version>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>3.0.2</version>
+    <scope>test</scope>
 </dependency>
 
-    <dependency>
+<dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.9.10</version>
     <scope>test</scope>
 </dependency>
+
 <dependency>
-    <groupId>com.google.code.gson</groupId>
-    <artifactId>gson</artifactId>
-    <version>2.8.0</version>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20160810</version>
 </dependency>
 
   </dependencies>
